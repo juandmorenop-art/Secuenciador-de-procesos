@@ -97,7 +97,7 @@ def optimizar_secuencia(df, peso_solv, peso_pap):
     return df_opt, costo_solv_opt, merma_pap_opt, tiempo_opt, costo_solv_emp, merma_pap_emp, tiempo_emp
 
 # Interfaz
-st.title("📊 Optimizador de Secuencias Flexográficas - Bocatto")
+st.title("📊 PROGRAMADOR DE SECUENCIAS")
 st.markdown("Modelo matemático de **Programación Dinámica / TSP** para reducción de lavado y desalineación.")
 
 st.sidebar.title("⚙️ Panel de Control")
